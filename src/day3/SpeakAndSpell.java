@@ -15,16 +15,43 @@ public class SpeakAndSpell {
 
 	public static void main(String[] args) {
 		// 1. Use the speak method to say the word. "e.g. spell mandlebrot"
-
+speak ("expeditious");
 		// 2. Catch the user's answer in a String
+String answer = JOptionPane.showInputDialog("Spell this word");
+if (answer.equals("expeditious")) {
+	
+	JOptionPane.showMessageDialog(null, "Yay! You got the answer correct!");
+}
+else {
+	JOptionPane.showMessageDialog(null, "You are bad at spelling!");
+}
+speak ("sarcophagus");
+String answer1 = JOptionPane.showInputDialog("Spell this word");
+if (answer1.equals("sarcophagus")) {
+	JOptionPane.showMessageDialog(null, "Yay! You got the answer correct!");
+}
+else {
+	JOptionPane.showMessageDialog(null, "You are bad at spelling!");
+}
 
+	speak ("calender");
+	String answer2 = JOptionPane.showInputDialog("Spell this word");
+	if (answer2.equals("calendar")) {
+		JOptionPane.showMessageDialog(null, "Yay! You got the answer correct!");
+	}
+	else {
+		JOptionPane.showMessageDialog(null, "You are bad at spelling!");
+	}
+	}
+	
+	
 		// 3. If the user spelled the word correctly, speak "correct"
 
 		// 4. Otherwise say "wrong"
 
 		// 5. repeat the process for other words
-		
-	}
+	
+	
 
 	static void speak(String words) {
 		try {
