@@ -1,0 +1,61 @@
+import org.jointheleague.graphical.robot.Robot;
+
+public class RobotGrafitti {
+public static void main(String[] args) {
+	Robot x = new Robot();
+	x.setSpeed(10);
+	x.hide();
+	x.turn(20);
+	x.penDown();
+	x.move(100);
+	x.turn(140);
+	x.move(100);
+	x.turn(180);
+	x.move(50);
+	x.turn(280);
+	x.move(35);
+	x.penUp();
+	x.turn(180);
+	x.move(100);
+	x.penDown();
+	x.turn(100);
+	x.move(60);
+	x.turn(180);
+	x.move(100);
+	x.penUp();
+	x.turn(90);
+	x.move(50);
+	x.turn(90);
+	x.move(50);
+	x.penDown();
+	x.move(50);
+	x.turn(270);
+	x.move(50);
+	x.penUp();
+	x.turn(270);
+	x.move(50);
+	x.penDown();
+	x.move(30);
+	x.turn(270);
+	x.move(50);
+	x.turn(270);
+	x.move(30);
+	x.turn(270);
+	x.move(50);
+	x.penUp();
+	x.move(50);
+	x.turn(45);
+	x.penDown();
+	x.move(50);
+	x.turn(180);
+	x.move(80);
+	x.turn(180);
+	x.move(30);
+	x.turn(90);
+	x.move(50);
+	x.turn(180);
+	x.move(80);
+	x.turn(180);
+	x.move(80);
+}
+}
